@@ -1,0 +1,488 @@
+*{
+	font-family: 'Lato' !important;
+	letter-spacing: 0px;
+}
+
+.container{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.what-is{
+	background-color: #fff;
+}
+
+.what-is .cloud{
+	display: block;
+	width: 93px;
+	height: 65px;
+	background-image: url('cloud.png');
+	background-size: 93px 65px;
+	margin: 64px auto;
+}
+
+.what-is .question{
+	float: left;
+	margin: 0 62px 0 100px;
+	width: calc(100% - 162px);
+	height: auto;
+}
+
+.what-is .question .first{
+	float: left;
+	text-align: left;
+	color: #000;
+	letter-spacing: 0.26em;
+	font-size: 118px;
+	font-weight: 900;
+	margin-top: 19px;
+}
+
+.what-is .question .second{
+	float: right;
+	text-align: right;
+	color: #000;
+	letter-spacing: 0.26em;
+	font-size: 118px;
+	font-weight: 900;
+	margin-top: 40px;
+}
+
+.what-is .first-answer{
+	float: left;
+	margin: 0 78px;
+	width: calc(100% - 156px);
+}
+
+.what-is .first-answer .text{
+	float: left;
+	text-align: left;
+	color: #000;
+	font-size: 56px;
+	letter-spacing: 0.02em;
+	line-height: 77px;
+	margin-top: 159px;
+}
+
+.what-is .second-answer{
+	float: right;
+	margin: 0 103px;
+	width: calc(100% - 206px);
+}
+
+.what-is .second-answer .text{
+	float: right;
+	text-align: right;
+	color: #000;
+	font-size: 56px;
+	letter-spacing: 0.02em;
+	line-height: 77px;
+	margin-top: 138px;
+}
+
+.the-cloud{
+	background-color: #f9f9fe;
+  margin-top: 161px;
+	height: 371px;
+}
+
+.the-cloud .third-answer{
+	float: left;
+	width: 100%;
+}
+
+.the-cloud .third-answer .text{
+	float: left;
+	text-align: center;
+	color: #000;
+	font-size: 56px;
+	letter-spacing: 0.02em;
+	line-height: 85px;
+	width: 100%;
+	font-family: 'Miller';
+	margin-top: 56px;
+}
+
+.comparative{
+	background-color: #fff;
+}
+
+.comparative .title-row{
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 178px;
+}
+
+.comparative .title-row .old{
+	float: left;
+	font-size: 90px;
+	color: #000;
+}
+
+.comparative .title-row .vs{
+	float: left;
+	font-size: 48px;
+	color: #000;
+	margin-top: 34px;
+}
+
+.comparative .title-row .new{
+	float: left;
+	font-size: 90px;
+	color: #000;
+	font-weight: 900;
+}
+
+.comparative .comparative-row{
+	float: left;
+	width: 100%;
+}
+
+.comparative .comparative-row .title{
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 48px;
+}
+
+.comparative .syncing{
+	margin-top: 99px;
+}
+
+.comparative .conflicted{
+	margin-top: 101px;
+}
+
+.comparative .indexing{
+	margin-top: 196px;
+}
+
+.comparative .tabs{
+	margin-top: 99px;
+}
+
+.comparative .storage{
+	margin-top: 203px;
+}
+
+.comparative .photo-container{
+  display: flex;
+  float: left;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.comparative .syncing .first-photo{
+	max-width: 600px;
+	float: left;                
+	background: url('syncing.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                 
+}
+
+.comparative .syncing .first-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .syncing .second-photo{
+	f
+	max-width: 600px;loat: right;                
+	background: url('christianbale.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                  
+}
+
+.comparative .syncing .second-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .conflicted .first-photo{
+	max-width: 600px;
+	float: left;                
+	background: url('syncing.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                 
+}
+
+.comparative .conflicted .first-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .conflicted .second-photo{
+	max-width: 600px;
+	float: right;                
+	background: url('jimcarrey.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                  
+}
+
+.comparative .conflicted .second-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .indexing .first-photo{
+	max-width: 600px;
+	float: left;                
+	background: url('syncing.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                 
+}
+
+.comparative .indexing .first-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .indexing .second-photo{
+	
+	max-width: 600px;float: right;                
+	background: url('christianbale.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                  
+}
+
+.comparative .indexing .second-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .tabs .first-photo{
+	max-width: 600px;
+	float: left;                
+	background: url('syncing.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                 
+}
+
+.comparative .tabs .first-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .tabs .second-photo{
+	floa
+	max-width: 600px;t: right;                
+	background: url('christianbale.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                  
+}
+
+.comparative .tabs .second-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .storage .first-photo{
+	max-width: 600px;
+	float: left;                
+	background: url('syncing.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                 
+}
+
+.comparative .storage .first-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.comparative .storage .second-photo{
+	f
+	max-width: 600px;loat: right;                
+	background: url('jimcarrey.gif') no-repeat;
+	background-size: cover;
+	width: 45%;
+  margin-top: 36px;                  
+}
+
+.comparative .storage .second-photo:after {
+  padding-top: 112.25%;
+  display: block;
+  content: '';
+}
+
+.not-convinced-container{
+	float: left;
+	width: 100%;
+	margin-top: 270px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.not-convinced-container .not-convinced{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 75px;
+	color: #252525;
+	letter-spacing: 0.02em;
+}
+
+.not-convinced-container .try-it{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 56px;
+	color: #252525;
+	letter-spacing: 0.02em;
+	font-weight: 900;
+	 margin-top: 21px;
+}
+
+.not-convinced-container .demo-button{
+  padding: 0 12px;
+  height: 60px;
+  background-color: #252525;
+  border-radius: 6px;
+  margin: 96px auto 13px auto;
+  cursor: pointer;
+  min-width: 311px;
+  min-height: 78px;
+}
+
+.not-convinced-container .demo-button-text{
+  color: #fff;
+  font-size: 29px;
+  font-weight: bold;
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.not-convinced-container .demo-subtitle{
+  font-size: 19px;
+  color: #717171;
+  font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
+
+.iOS .not-convinced-container .demo-subtitle{
+  display: none;
+}
+
+.android .not-convinced-container .demo-subtitle{
+  display: none;
+}
+
+.not-convinced-container .main-claim-link{
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.not-convinced-container .main-claim-link.iOS{
+  display: none;
+}
+
+.not-convinced-container .main-claim-link.android{
+  display: none;
+}
+
+.iOS .not-convinced-container .main-claim-link.desktop{
+  display: none;
+}
+
+.iOS .not-convinced-container .main-claim-link.iOS{
+  display: initial;
+}
+
+.android .not-convinced-container .main-claim-link.desktop{
+  display: none;
+}
+
+.android .not-convinced-container .main-claim-link.android{
+  display: initial;
+}
+
+/* 576px to 768px */
+@media(min-width:576px) and (max-width:992px){
+	.what-is .question .first, .what-is .question .second{
+		font-size: 45px;
+	}
+	.what-is .first-answer .text, .what-is .second-answer .text{
+		font-size: 22px;
+	}
+	.what-is .second-answer .text{
+		margin-top: 10px;
+	}
+	.the-cloud{
+		margin-top: 48px;
+	}
+	.the-cloud .third-answer .text{
+		font-size: 24px;
+	}
+	.comparative .title-row .old, .comparative .title-row .new{
+    font-size: 38px;
+	}
+	.comparative .title-row .vs{
+		margin-top: 14px;
+    font-size: 24px;
+	}
+	.not-convinced-container {
+    margin-top: 90px;
+  }
+  .not-convinced-container .not-convinced {
+    font-size: 55px;
+  }
+  .not-convinced-container .try-it{
+  	font-size: 42px;
+  }
+  .not-convinced-container .demo-button {
+    margin: 60px auto 13px auto;
+    min-width: 265px;
+    min-height: 72px;
+	}
+	.not-convinced-container .demo-button-text {
+    font-size: 24px;
+	}
+}
+
+/* 992px to 1200px */
+@media(min-width:992px) and (max-width:1200px){
+	.what-is .question .first, .what-is .question .second{
+		font-size: 75px;
+	}
+	.what-is .first-answer .text, .what-is .second-answer .text{
+		font-size: 35px;
+	}
+	.the-cloud .third-answer .text{
+		font-size: 40px;
+	}
+	.comparative .title-row .old, .comparative .title-row .new{
+    font-size: 75px;
+	}
+	.comparative .title-row .vs{
+		margin-top: 20px;
+	}
+	.not-convinced-container {
+    margin-top: 90px;
+  }
+}
