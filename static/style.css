@@ -3,6 +3,16 @@
 	letter-spacing: 0px;
 }
 
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.hidden{
+	display: none !important;
+}
+
 .container{
 	float: left;
 	width: 100%;
@@ -149,6 +159,64 @@
 	font-size: 48px;
 }
 
+.comparative .first-photo .only-hover, .comparative .second-photo .only-hover{
+	opacity: 0;
+	transition: all 0.2s ease;
+}
+
+.comparative .first-photo .desc, .comparative .second-photo .desc{
+	position: absolute;
+	left: 0;
+	top: 30%;
+	font-size: 26px;
+	color: #fff;
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+}
+
+.comparative .first-photo .subdesc, .comparative .second-photo .subdesc{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	font-size: 19px;
+	color: #fff;
+	width: 80%;
+	text-align: center;
+	line-height: 32px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mobile .comparative .first-photo .desc, .mobile .comparative .second-photo .desc{
+	display: none;
+}
+
+.mobile .comparative .first-photo .subdesc, .mobile .comparative .second-photo .subdesc{
+	display: none;
+}
+
+.comparative .first-photo:hover .only-hover, .comparative .second-photo:hover .only-hover{
+	opacity: 1;
+}
+
+.comparative .first-photo:hover:before, .comparative .second-photo:hover:before{
+	content: "";
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	transition: all 0.2s ease;
+}
+
+.mobile .comparative .first-photo:hover:before, .mobile .comparative .second-photo:hover:before{
+	display: none;
+}
+
+.comparative .first-photo, .comparative .second-photo{
+	position: relative;
+}
+
 .comparative .syncing{
 	margin-top: 99px;
 }
@@ -182,7 +250,7 @@
 	background: url('syncing.gif') no-repeat;
 	background-size: cover;
 	width: 45%;
-  margin-top: 36px;                 
+  margin-top: 36px;
 }
 
 .comparative .syncing .first-photo:after {
@@ -197,7 +265,7 @@
 	background: url('christianbale.gif') no-repeat;
 	background-size: cover;
 	width: 45%;
-  margin-top: 36px;                  
+  margin-top: 36px;
 }
 
 .comparative .syncing .second-photo:after {
@@ -422,8 +490,115 @@
   display: initial;
 }
 
-/* 576px to 768px */
-@media(min-width:576px) and (max-width:992px){
+.mobile-container{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.mobile-container.mobile-description{
+	overflow: hidden;
+}
+
+.mobile-description.mobile-container .gif-desc, .mobile-description.mobile-container .gif-subdesc, .mobile-description.mobile-container .gif{
+	display: inline-block;
+}
+
+.mobile-container .gif-desc{
+	position: absolute;
+	left: 0;
+	top: 190px;
+	font-size: 26px;
+	color: #fff;
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	display: none;
+}
+
+.mobile-container .gif-subdesc{
+	position: absolute;
+	left: 0;
+	top: 40%;
+	font-size: 19px;
+	color: #fff;
+	width: 80%;
+	text-align: center;
+	line-height: 32px;
+	margin-left: 10%;
+	margin-right: 10%;
+	z-index: 2;
+	display: none;
+}
+
+.mobile-container .gif{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: all 0.2s ease;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	display: none;
+	background-size: cover;
+}
+
+.mobile-container .gif:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	transition: all 0.2s ease;
+	left: 0;
+	top: 0;
+}
+
+/* 320px to 375px Iphone 5 */
+@media(min-width:320px) and (max-width:375px){
+
+	/* Mobile */
+	.mobile .what-is .cloud {
+    margin: 50px auto 27px !important;
+	}
+	.mobile .what-is .question .first{
+		letter-spacing: 10px;
+	}
+	.mobile .what-is .question .second{
+		letter-spacing: 10px;
+	}
+	.mobile .what-is .first-answer .text{
+		font-size: 22px !important;
+    line-height: 35.5px !important;
+	}
+	.mobile .what-is .second-answer .text {
+		font-size: 22px !important;
+    margin-top: 90px !important;
+    line-height: 35.5px !important;
+	}
+	.mobile .the-cloud {
+    height: 290px !important;
+	}
+	.mobile .the-cloud .third-answer .text {
+    font-size: 25px !important;
+    line-height: 39.5px !important;
+    margin-top: 64px !important;
+	}
+	.mobile .comparative .title-row {
+    margin-top: 90px !important;
+	}
+	.mobile .not-convinced-container .not-convinced {
+    font-size: 32.5px !important;
+    margin-top: 10px;
+	}
+}
+
+/* 320px to 992px */
+@media(min-width:320px) and (max-width:992px){
+
+	/* Desktop */
 	.what-is .question .first, .what-is .question .second{
 		font-size: 45px;
 	}
@@ -462,6 +637,103 @@
 	}
 	.not-convinced-container .demo-button-text {
     font-size: 24px;
+	}
+
+	/* Mobile */
+	.mobile .what-is .cloud {
+    margin: 64px auto 34px;
+	}
+	.mobile .what-is .question {
+    margin: 0 2px 0 12px;
+    width: calc(100% - 14px);
+	}
+	.mobile .what-is .question .first{
+		font-size: 59px;
+    word-wrap: break-word;
+    line-height: 78.5px;
+	}
+	.mobile .what-is .question .second{
+		font-size: 59px;
+    word-wrap: break-word;
+    line-height: 78.5px;
+    margin-top: 1px;
+	}
+	.mobile .what-is .first-answer {
+    margin: 0px 13px 0 19px;
+    width: calc(100% - 32px);
+	}
+	.mobile .what-is .second-answer {
+    margin: 0px 18px;
+    width: calc(100% - 36px);
+	}
+	.mobile .what-is .first-answer .text{
+		font-size: 28px;
+    margin-top: 96px;
+    line-height: 38.5px;
+	}
+	.mobile .what-is .second-answer .text {
+		font-size: 28px;
+    margin-top: 117px;
+    line-height: 38.5px;
+	}
+	.mobile .the-cloud {
+    margin-top: 84px;
+    height: 355px;
+	}
+	.mobile .the-cloud .third-answer .text {
+    font-size: 28px;
+    line-height: 42.5px;
+    margin-top: 94px;
+	}
+	.mobile .comparative .title-row {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 130px;
+	}
+	.mobile .comparative .title-row .vs {
+    font-size: 15px;
+    margin-top: 39px;
+	}
+	.mobile .comparative .title-row .old, .mobile .comparative .title-row .new {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+	}
+	.mobile .comparative .comparative-row .title {
+    font-size: 24px;
+	}
+	.mobile .comparative .photo-container {
+    justify-content: space-between;
+	}
+	.mobile .comparative .syncing{
+		margin-top: 64px;
+	}
+	.mobile .comparative .conflicted{
+		margin-top: 64px;
+	}
+	.mobile .comparative .indexing{
+		margin-top: 64px;
+	}
+	.mobile .comparative .tabs{
+		margin-top: 64px;
+	}
+	.mobile .comparative .storage{
+		margin-top: 64px;
+	}
+	.mobile .not-convinced-container .not-convinced {
+    font-size: 37.5px;
+	}
+	.mobile .not-convinced-container .try-it {
+    font-size: 28px;
+	}
+	.mobile .not-convinced-container .demo-button {
+    min-width: 260px;
+    min-height: 57px;
+	}
+	.mobile .not-convinced-container .demo-button-text {
+    font-size: 18px;
 	}
 }
 

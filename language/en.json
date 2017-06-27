@@ -1,0 +1,70 @@
+
+{
+    "whatIs" : {
+
+    	"desktop"	: "What&nbsp;&nbsp;is&nbsp;&nbsp;the",
+    	"mobile"	: "What&nbsp;&nbsp;is<br>&nbsp;the"
+
+    },
+
+    "newCloud" : {
+
+    	"desktop"	: "new&nbsp;&nbsp;cloud?",
+    	"mobile"	: "new<br>cloud?&nbsp;"
+
+    },
+
+    "answer" : {
+
+    	"first"	: {
+
+    		"desktop"	: "The new Cloud is all about working<br>&nbsp;&nbsp;&nbsp;<b>online</b> with all your programs and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;files instead of <b>syncing</b> your files<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;across all your devices.",
+    		"mobile"	: "The new Cloud is all about<br>working <b>online</b> with all<br>your programs and files<br>instead of <b>syncing</b> your<br>files across all your devices."
+
+    	},
+
+    	"second"	: {
+
+    		"desktop"	: "You can work and collaborate<br>directly online without having to<br>download, install, sync or<br>configure anything.",
+    		"mobile"	: "You can work and<br>collaborate directly<br>online without having<br>to download, install, sync<br>or configure anything."
+
+    	},
+
+    	"third"	: {
+
+    		"desktop"	: "The new Cloud finally makes \"the Cloud\"<br>easy, simple and convenient<br>for the rest of us.",
+    		"mobile"	: "The new Cloud finally<br>makes \"the Cloud\" easy,<br>simple and convenient for<br>the rest of us."
+
+    	}
+
+    },
+
+    "old" : {
+
+    	"desktop"	: "Old cloud",
+    	"mobile"	: "Old<br>cloud"
+
+    },
+
+    "new" : {
+
+    	"desktop"	: "New cloud",
+    	"mobile"	: "New<br>cloud"
+
+    },
+
+    "syncing"			: "Syncing",
+		"conflicted"	: "Conflicted copies",
+		"indexing"		: "Indexing",    
+		"tabs"				: "Ocean of tabs", 
+		"storage"			: "Storage",
+
+		"not-convinced"	: "Not convinced yet?",
+		"tryIt"					: "Try it for yourself",
+
+		"tryDemo"					: "Try the demo",
+		"downloadIos"			: "Download IOS app",
+		"downloadAndroid"	: "Download Android app",
+		"noData"					: "(No data required)"
+
+}

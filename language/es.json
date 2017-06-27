@@ -1,0 +1,70 @@
+
+{
+    "whatIs" : {
+
+    	"desktop"	: "What&nbsp;&nbsp;is&nbsp;&nbsp;the",
+    	"mobile"	: "What&nbsp;&nbsp;is<br>&nbsp;the"
+
+    },
+
+    "newCloud" : {
+
+    	"desktop"	: "new&nbsp;&nbsp;cloud?",
+    	"mobile"	: "new<br>cloud?&nbsp;"
+
+    },
+
+    "answer" : {
+
+    	"first"	: {
+
+    		"desktop"	: "La nueva nube gira entorno a trabajar<br>&nbsp;&nbsp;&nbsp;<b>online</b> con todos tus programas y<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;archivos en lugar de <b>sincronizar</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; todo entre tus dispositivos.",
+    		"mobile"	: "La nueva nube gira entorno a<br>trabajar <b>online</b> con todos<br>tus programas y archivos<br>en lugar de <b>sincronizar</b> todo<br>entre tus dispositivos."
+
+    	},
+
+    	"second"	: {
+
+    		"desktop"	: "Puedes trabajar y colaborar<br>directamente online sin tener que<br>descargar, instalar, sincronizar ni<br>configurar nada.",
+    		"mobile"	: "Puedes trabajar y<br>colaborar directamente<br>online in tener que<br>escargar, instalar, sincronizar<br>ni configurar nada."
+
+    	},
+
+    	"third"	: {
+
+    		"desktop"	: "La nueva nube por fin hace que \"la nube\"<br>sea fácil, sencilla y útil<br>para el resto de nosotros.",
+    		"mobile"	: "La nueva nube por fin<br>hace que \"la nube\" sea fácil,<br>sencilla y útil para<br>el resto de nosotros."
+
+    	}
+
+    },
+
+    "old" : {
+
+    	"desktop"	: "Vieja nube",
+    	"mobile"	: "Vieja<br>nube"
+
+    },
+
+    "new" : {
+
+    	"desktop"	: "Nueva nube",
+    	"mobile"	: "Nueva<br>nube"
+
+    },
+
+    "syncing"			: "Sincronizar",
+		"conflicted"	: "Copias conflictivas",
+		"indexing"		: "Indexando",    
+		"tabs"				: "Oceano de tabs", 
+		"storage"			: "Almacenamiento",
+
+		"not-convinced"	: "¿Aun no estas convencido?",
+		"tryIt"					: "Pruebalo tu mismo",
+
+		"tryDemo"					: "Prueba la demo",
+		"downloadIos"			: "Descarla la app de IOS",
+		"downloadAndroid"	: "Descarga la app de Android",
+		"noData"					: "(Sin datos requeridos)"
+
+}
