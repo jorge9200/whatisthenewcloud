@@ -90,7 +90,7 @@ $( document ).ready(function() {
 		$('.tabs .second-photo .subdesc').text('The new Cloud has been conceived for multitasking. Introducing a gamechanger concept (windows in the Cloud!), you will be able to work at the same time with different files, as you collaborate with your colleagues');
 
 		$('.storage .desc').text('Storage');
-		$('.storage .first-photo .subdesc').text(' The old Cloud gives you very little storage for free, in order to charge you a fee for a excessive amount of space you will never use.');
+		$('.storage .first-photo .subdesc').text('The old Cloud gives you very little storage for free, in order to charge you a fee for a excessive amount of space you will never use.');
 		$('.storage .second-photo .subdesc').text('The new Cloud gives you a very reasonable amount of free storage to start working online. If you need more, you just pay as you go. You will never pay for storage you don´t use. Clever, isn´t it?');
 	}
 

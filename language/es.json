@@ -65,6 +65,21 @@
 		"tryDemo"					: "Prueba la demo",
 		"downloadIos"			: "Descarla la app de IOS",
 		"downloadAndroid"	: "Descarga la app de Android",
-		"noData"					: "(Sin datos requeridos)"
+		"noData"					: "(Sin datos requeridos)",
+
+    "syncingDesc"     : "Archivos duplicados en cada dispositivo. Problemas de almacenamiento en tus dispositivos. Dependencia del dispositivo. ¿Dónde están mis archivos? ¿Cuáles tengo en la nube y cuáles en mi dispositivo?",
+    "syncingSubdesc"  : "No sincronices, trabaja directamente online. Es más rápido, mas fácil y lo mas importante, es colaborativo",
+
+    "conflictedDesc"     : "Al tener los archivos duplicados en todos los dispositivos, es muy común encontrarte problemas como las copias conflictivas, que rompen los archivos con los que trabajas.",
+    "conflictedSubdesc"  : "Con la nueva nube no tendrás copias conflictivas. Tus archivos están seguros y además, no necesitas tenerlos duplicados en todos tus dispositivos.",
+
+    "indexingDesc"     : "La vieja nube no está pensada para trabajar. Si haces un uso intensivo de ella, ves como muchas veces se queda en bucle indexando miles de archivos.",
+    "indexingSubdesc"  : "La nueva nube está diseñada para trabajar mediante tecnologías web. ¡A veces, incluso es más rápida que tu propio ordenador!",
+
+    "tabsDesc"     : "En la vieja nube no puedes hacer varias tareas a la vez. Cuando intentas abrir dos archivos, se abren en diferentes pestañas, haciendo la experiencia de uso muy poco intuitiva.",
+    "tabsSubdesc"  : "La nueva nube ha sido creada para hacer muchas tareas al mismo tiempo. Introduciendo un concepto revolucionario (ventanas en la nube!), podrás trabajar con diferentes archivos al mismo tiempo mientras colaboras con tus compañeros.",    
+
+    "storageDesc"     : "La vieja nube te da muy poco espacio gratuito, para hacer que contrates muchísimo espacio más que nunca llegarás a utilizar.",
+    "storageSubdesc"  : "La nueva nube te da una cantidad de espacio razonable de manera gratuita para poder trabajar online desde el principio. Si necesitas más, tan solo contratas el espacio que necesites en cada momento. ¿Tiene sentido verdad?"
 
 }

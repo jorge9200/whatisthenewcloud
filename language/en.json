@@ -65,6 +65,21 @@
 		"tryDemo"					: "Try the demo",
 		"downloadIos"			: "Download IOS app",
 		"downloadAndroid"	: "Download Android app",
-		"noData"					: "(No data required)"
+		"noData"					: "(No data required)",
+
+    "syncingDesc"     : "Files duplicated on every device. Device storage problems. Device dependency. Where do I have my files? I don´t know which files are on the device and which ones on the Cloud...",
+    "syncingSubdesc"  : "Don´t sync, just work directly online. It´s faster, easier and the most important of all, it´s collaborative.",
+
+    "conflictedDesc"     : "As you have all files duplicated in different devices, it´s very often to face problems like conflicted copies, which completely ruin them.",
+    "conflictedSubdesc"  : "With the new Cloud you don´t need to worry about conflicted copies. Your files are safe. You don´t need to have them duplicated on every device.",
+
+    "indexingDesc"     : "The old Cloud is not made to work with it. If you make intensive use of these solutions, it is very common to see how much they crush when trying to index thousands of files",
+    "indexingSubdesc"  : "The new Cloud is designed to work fast using web technologies. Sometimes, it´s even faster than your actual computer!",
+
+    "tabsDesc"     : "The old Cloud does not support multitask. When you try to open two files, they open in different tabs, making the whole experience very poor.",
+    "tabsSubdesc"  : "The new Cloud has been conceived for multitasking. Introducing a gamechanger concept (windows in the Cloud!), you will be able to work at the same time with different files, as you collaborate with your colleagues",    
+
+    "storageDesc"     : "The old Cloud gives you very little storage for free, in order to charge you a fee for a excessive amount of space you will never use.",
+    "storageSubdesc"  : "The new Cloud gives you a very reasonable amount of free storage to start working online. If you need more, you just pay as you go. You will never pay for storage you don´t use. Clever, isn´t it?"
 
 }
