@@ -1,6 +1,10 @@
 *{
 	font-family: 'Lato' !important;
 	letter-spacing: 0px;
+	font-variant-ligatures: no-common-ligatures;
+  -moz-font-feature-settings: "liga" 0, "clig" 0;
+  -webkit-font-feature-settings: "liga" 0, "clig" 0;
+  font-feature-settings: "liga" 0, "clig" 0;
 }
 
 body{
@@ -25,10 +29,10 @@ body{
 
 .what-is .cloud{
 	display: block;
-	width: 93px;
-	height: 65px;
+	width: 93.5px;
+	height: 65.5px;
 	background-image: url('cloud.png');
-	background-size: 93px 65px;
+	background-size: 93.5px 65.5px;
 	margin: 64px auto;
 }
 
@@ -70,7 +74,6 @@ body{
 	text-align: left;
 	color: #000;
 	font-size: 56px;
-	letter-spacing: 0.02em;
 	line-height: 77px;
 	margin-top: 159px;
 }
@@ -86,7 +89,6 @@ body{
 	text-align: right;
 	color: #000;
 	font-size: 56px;
-	letter-spacing: 0.02em;
 	line-height: 77px;
 	margin-top: 138px;
 }
@@ -107,10 +109,9 @@ body{
 	text-align: center;
 	color: #000;
 	font-size: 56px;
-	letter-spacing: 0.02em;
 	line-height: 85px;
 	width: 100%;
-	font-family: 'Miller';
+	font-family: 'Miller' !important;
 	margin-top: 56px;
 }
 
@@ -410,7 +411,6 @@ body{
 	text-align: center;
 	font-size: 75px;
 	color: #252525;
-	letter-spacing: 0.02em;
 }
 
 .not-convinced-container .try-it{
@@ -419,9 +419,8 @@ body{
 	text-align: center;
 	font-size: 56px;
 	color: #252525;
-	letter-spacing: 0.02em;
 	font-weight: 900;
-	 margin-top: 21px;
+	margin-top: 21px;
 }
 
 .not-convinced-container .demo-button{
@@ -433,6 +432,12 @@ body{
   cursor: pointer;
   min-width: 311px;
   min-height: 78px;
+  transition: all 0.2s ease;
+}
+
+.not-convinced-container .demo-button:hover{
+  background-color: #000;
+  box-shadow: 0px 5px 10px 0px rgba(7, 10, 14, 0.3);
 }
 
 .not-convinced-container .demo-button-text{
@@ -558,17 +563,17 @@ body{
 }
 
 /* 320px to 375px Iphone 5 */
-@media(min-width:320px) and (max-width:375px){
+@media(min-width:320px) and (max-width:374px){
 
 	/* Mobile */
 	.mobile .what-is .cloud {
     margin: 50px auto 27px !important;
 	}
 	.mobile .what-is .question .first{
-		letter-spacing: 10px;
+		letter-spacing: 0.26em;
 	}
 	.mobile .what-is .question .second{
-		letter-spacing: 10px;
+		letter-spacing: 0.26em;
 	}
 	.mobile .what-is .first-answer .text{
 		font-size: 22px !important;
@@ -596,49 +601,8 @@ body{
 	}
 }
 
-/* 320px to 992px */
+/* 320px to 992px MOBILE */
 @media(min-width:320px) and (max-width:992px){
-
-	/* Desktop */
-	.what-is .question .first, .what-is .question .second{
-		font-size: 45px;
-	}
-	.what-is .first-answer .text, .what-is .second-answer .text{
-		font-size: 22px;
-	}
-	.what-is .second-answer .text{
-		margin-top: 10px;
-	}
-	.the-cloud{
-		margin-top: 48px;
-	}
-	.the-cloud .third-answer .text{
-		font-size: 24px;
-	}
-	.comparative .title-row .old, .comparative .title-row .new{
-    font-size: 38px;
-	}
-	.comparative .title-row .vs{
-		margin-top: 14px;
-    font-size: 24px;
-	}
-	.not-convinced-container {
-    margin-top: 90px;
-  }
-  .not-convinced-container .not-convinced {
-    font-size: 55px;
-  }
-  .not-convinced-container .try-it{
-  	font-size: 42px;
-  }
-  .not-convinced-container .demo-button {
-    margin: 60px auto 13px auto;
-    min-width: 265px;
-    min-height: 72px;
-	}
-	.not-convinced-container .demo-button-text {
-    font-size: 24px;
-	}
 
 	/* Mobile */
 	.mobile .what-is .cloud {
@@ -652,6 +616,7 @@ body{
 		font-size: 59px;
     word-wrap: break-word;
     line-height: 78.5px;
+    margin-top: 27px;
 	}
 	.mobile .what-is .question .second{
 		font-size: 59px;
@@ -738,16 +703,23 @@ body{
 	}
 }
 
-/* 992px to 1200px */
-@media(min-width:992px) and (max-width:1200px){
+/* 700px to 900px DESKTOP */
+@media(min-width:320px) and (max-width:992px){
 	.what-is .question .first, .what-is .question .second{
-		font-size: 75px;
+		font-size: 70px;
+		letter-spacing: 0.2em;
+	}
+	.what-is .question .first{
+		margin-left: -70px;
 	}
 	.what-is .first-answer .text, .what-is .second-answer .text{
-		font-size: 35px;
+		font-size: 38px;
+		line-height: 65px;
 	}
 	.the-cloud .third-answer .text{
-		font-size: 40px;
+		font-size: 55px;
+		line-height: 85px;
+		margin-top: 52px;
 	}
 	.comparative .title-row .old, .comparative .title-row .new{
     font-size: 75px;
@@ -756,6 +728,31 @@ body{
 		margin-top: 20px;
 	}
 	.not-convinced-container {
-    margin-top: 90px;
+    margin-top: 150px;
+  }
+}
+
+/* 992px to 1200px DESKTOP */
+@media(min-width:992px) and (max-width:1200px){
+	.what-is .question .first, .what-is .question .second{
+		font-size: 100px;
+		letter-spacing: 0.24em;
+	}
+	.what-is .first-answer .text, .what-is .second-answer .text{
+		font-size: 55px;
+	}
+	.the-cloud .third-answer .text{
+		font-size: 55px;
+		line-height: 85px;
+		margin-top: 52px;
+	}
+	.comparative .title-row .old, .comparative .title-row .new{
+    font-size: 75px;
+	}
+	.comparative .title-row .vs{
+		margin-top: 20px;
+	}
+	.not-convinced-container {
+    margin-top: 150px;
   }
 }
